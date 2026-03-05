@@ -20,9 +20,9 @@ const Navbar = () => {
         })
     })
   return (
-   <nav>
-    <div>
-        <a href="#home" className='flex items-center '>
+   <nav >
+    <div className='flex px-5'>
+        <a href="#home" className='flex items-center  '>
             <img src="/public/logo.png" alt="" />
            <p className='font-serif'>
             Velvet Pour

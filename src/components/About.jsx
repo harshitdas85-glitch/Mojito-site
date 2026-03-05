@@ -14,7 +14,7 @@ useGSAP(()=>{
     const scrollTimeline = gsap.timeline({
         scrollTrigger:{
             trigger:'#about',
-            start:'top 20%',
+            start:'top 80%',
         
             
         }

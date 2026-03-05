@@ -58,7 +58,7 @@ const Art = () => {
 
                 </ul>
                 <div className='cocktail-img'>
-                <img src="/public/under-img.jpg" alt="cocktail" className='abs-center masked-img size-full object-contain' />
+                <img src="/public/under-img.jpg" alt="cocktail" className='abs-center  masked-img size-full object-contain' />
                 </div>
                 <ul className='space-y-4 will-fade'>
                     {featureLists.map((item,index)=>(
@@ -73,13 +73,13 @@ const Art = () => {
 
             </div>
             <div className='masked-container'>
-                <h2 className='will-fade font-serif'>Sip-Worthy Perfection</h2>
-                 <div id='masked-content'>
-           <h2 >
+                <h2 className='will-fade font-serif mt-70'>Sip-Worthy Perfection</h2>
+                 <div id='masked-content '>
+           <h2 className='text-2xl sm:text-3xl'>
             Made with Craft,Poured with Passion
            </h2>
            
-           <p>This isn't just a drink. It's a carefully crafted moment made just for you</p>
+           <p className=''>This isn't just a drink. It's a carefully crafted moment made just for you</p>
                  </div>
             </div>
         </div>
