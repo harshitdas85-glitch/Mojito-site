@@ -36,8 +36,8 @@ gsap.fromTo('.details p',{yPercent:100,opacity:0},{
 
     return (
         <section id='menu' aria-labelledby='menu-heading '>
-            <img src="/public/slider-left-leaf.png" alt="left-leaf" id='m-left-leaf' />
-            <img src="/public/slider-right-leaf.png" alt="right-leaf" id='m-right-leaf' />
+            <img src="/slider-left-leaf.png" alt="left-leaf" id='m-left-leaf' />
+            <img src="/slider-right-leaf.png" alt="right-leaf" id='m-right-leaf' />
             <h2 id='menu-heading' className='sr-only'>
                 Cocktail Menu
             </h2>
@@ -56,11 +56,11 @@ gsap.fromTo('.details p',{yPercent:100,opacity:0},{
                 <div className='arrows'>
                     <button className='text-left ' onClick={() => gotoSlide(currentIndex - 1)}>
                         <span className='dancing-script-hero text-4xl'>{prevCocktail.name}</span>
-                        <img src="/public/right-arrow.png" alt="right-arrow" aria-hidden="true" />
+                        <img src="/right-arrow.png" alt="right-arrow" aria-hidden="true" />
                     </button>
                     <button className='text-left' onClick={() => gotoSlide(currentIndex + 1)}>
                         <span className='dancing-script-hero text-4xl'>{nextCocktail.name}</span>
-                        <img src="/public/left-arrow.png" alt="left-arrow" aria-hidden="true" />
+                        <img src="/left-arrow.png" alt="left-arrow" aria-hidden="true" />
                     </button>
                 </div>
                 <div className='cocktail'>

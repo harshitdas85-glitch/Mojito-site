@@ -64,8 +64,8 @@ const endvalue = isMobile ?  '120% top' : 'bottom  top';
     <>
 <section id='hero' className='  '>
 <h1 className='title font-serif'>MOJITO</h1>
-<img src="/public/hero-left-leaf.png" alt="" className='left-leaf' />
-<img src="/public/hero-right-leaf.png" alt="" className='right-leaf' />
+<img src="/hero-left-leaf.png" alt="" className='left-leaf' />
+<img src="/hero-right-leaf.png" alt="" className='right-leaf' />
 
 <div className='body'>
 <div className='content'>

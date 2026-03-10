@@ -50,7 +50,7 @@ const Art = () => {
                 <ul className='space-y-4 will-fade'>
                     {goodLists.map((item,index)=>(
 <li className='flex items-center gap-2' key={index}>
-    <img src="/public/check.png" alt="check" />
+    <img src="/check.png" alt="check" />
     <p>{item}</p>
 </li>)
 
@@ -58,12 +58,12 @@ const Art = () => {
 
                 </ul>
                 <div className='cocktail-img'>
-                <img src="/public/under-img.jpg" alt="cocktail" className='abs-center  masked-img size-full object-contain' />
+                <img src="/under-img.jpg" alt="cocktail" className='abs-center  masked-img size-full object-contain' />
                 </div>
                 <ul className='space-y-4 will-fade'>
                     {featureLists.map((item,index)=>(
 <li className='flex items-center justify-start gap-2' key={index}>
-    <img src="/public/check.png" alt="check" />
+    <img src="/check.png" alt="check" />
     <p className='md:w-fit w-60'>{item}</p>
 </li>)
 
