@@ -38,8 +38,8 @@ type:"word"
     },[])
   return (
     <footer id="contact" className=''>
-        <img src="/public/footer-right-leaf.png" alt="leaf-right" id='f-right-leaf' />
-        <img src="/public/footer-left-leaf.png" alt="leaf-left" id='f-left-leaf ' />
+        <img src="/footer-right-leaf.png" alt="leaf-right" id='f-right-leaf' />
+        <img src="/footer-left-leaf.png" alt="leaf-left" id='f-left-leaf ' />
         <div className='content font-serif'>
        <h2 className='font-serif'>
         Where to Find Us

@@ -23,7 +23,7 @@ const Navbar = () => {
    <nav >
     <div className='flex px-5'>
         <a href="#home" className='flex items-center  '>
-            <img src="/public/logo.png" alt="" />
+            <img src="/logo.png" alt="" />
            <p className='font-serif'>
             Velvet Pour
            </p>

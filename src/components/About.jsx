@@ -65,14 +65,14 @@ useGSAP(()=>{
       
       <div className='top-grid'>
 <div className='sm:col-span-3'>
-<img className='' src="/public/abt1.png" alt="grid-img-1" />
+<img className='' src="/abt1.png" alt="grid-img-1" />
 </div>
  <div className='sm:col-span-6 '>
-<img  src="/public/abt2.png" alt="grid-img-2" />
+<img  src="/abt2.png" alt="grid-img-2" />
 </div> 
  <div className='md:col-span-3'>
 
-<img className='' src="/public/abt5.png" alt="grid-img-5" />
+<img className='' src="/abt5.png" alt="grid-img-5" />
 
 </div> 
 </div>
@@ -80,10 +80,10 @@ useGSAP(()=>{
 
 <div className='bottom-grid'>
 <div className='md:col-span-8 h-4/5'>
-<img src="/public/abt3.png" alt="grid-img-3" />
+<img src="/abt3.png" alt="grid-img-3" />
 </div>
  <div className='md:col-span-4 h-4/5'>
-<img src="/public/abt4.png" alt="grid-img-4" />
+<img src="/abt4.png" alt="grid-img-4" />
 </div> 
       </div>
     </div>

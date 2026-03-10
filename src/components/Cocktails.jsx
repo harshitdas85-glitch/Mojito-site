@@ -22,8 +22,8 @@ x:100,y:100
 },[])
   return (
     <section id="cocktails" className=''>
-<img src="/public/cocktail-left-leaf.png" alt="" id="c-left-leaf"/>
-<img src="/public/cocktail-right-leaf.png" alt="" id="c-right-leaf"/>
+<img src="/cocktail-left-leaf.png" alt="" id="c-left-leaf"/>
+<img src="/cocktail-right-leaf.png" alt="" id="c-right-leaf"/>
 
 <div className='list'>
     <div className='popular'>
