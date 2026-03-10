@@ -73,16 +73,16 @@ const mockTailLists = [
 
 const profileLists = [
  {
-	imgPath: "/public/profile1.png",
+	imgPath: "/profile1.png",
  },
  {
-	imgPath: "/public/profile2.png",
+	imgPath: "/profile2.png",
  },
  {
-	imgPath: "/public/profile3.png",
+	imgPath: "/profile3.png",
  },
  {
-	imgPath: "/public/profile4.png",
+	imgPath: "/profile4.png",
  },
 ];
 
