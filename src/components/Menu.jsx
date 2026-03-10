@@ -9,7 +9,7 @@ const Menu = () => {
     useGSAP(()=>{
 gsap.fromTo('#title',{opacity:0},{opacity:1,duration:1})
 gsap.fromTo('.cocktail img',{opacity:0,xPercent:-100},{
-    xPercent:0,opacity:1,duration:1,ease:'power1.inOut',duration:1
+    xPercent:0,opacity:1,duration:1,ease:'power1.inOut'
 })  
 const words1 = SplitText.create('.details h2',{
     type:"words"
