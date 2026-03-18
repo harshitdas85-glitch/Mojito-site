@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { Analytics } from '@vercel/analytics/react'
 
 import About from './components/About.jsx'
 
@@ -27,6 +27,7 @@ function App() {
    <Menu/>
    <Contact/>
    </main>
+   <Analytics />
     </>
   )
 }
